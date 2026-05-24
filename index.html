@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/AJTekniko/ajtekniko/main/pics/profile-pic.png">
+    <title>AJ Tekniko - Case Swapper</title>
+</head>
+<body>
+    <div class="stars">
+    </div>
+    <div class="header">
+        <h1>AJ Tekniko</h1>
+    </div>
+    <div class="profile"></div>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./videos.html">Videos</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./games.html">Games</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Case Swapper</h2>
+        <p>Please enter your text below.</p>
+        <form onsubmit="generate()">
+            <input type="text" placeholder="Input" id="originalText" autofocus>
+            <div id="textBox">
+                <p id="finalText"></p>
+            </div>
+            <label for="myCheckbox">Alternating Case</label>
+            <input type="checkbox" id="myCheckbox" name="choice" value="checked">
+            <button type="submit">Run</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
