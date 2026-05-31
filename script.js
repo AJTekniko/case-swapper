@@ -17,9 +17,11 @@
                 if (caracter.toLowerCase() !== caracter.toUpperCase()) {
                 cuenta += 1
                 }
-              } else if (caracter.toLowerCase() !== caracter.toUpperCase()) {
+              } else {
                 resultado += caracter.toLowerCase();
-                cuenta += 1
+                if (caracter.toLowerCase() !== caracter.toUpperCase()) {
+                  cuenta += 1
+                }
               }
             }
           } else {
