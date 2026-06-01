@@ -248,13 +248,3 @@
                 transform: translateX(0);
             }
         }
-
-        @media screen and (max-width: 875px) {
-            .container {
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-        }
