@@ -22,18 +22,20 @@
             <li><a href="https://ajtekniko.github.io/ajtekniko/games.html">Games</a></li>
         </ul>
     </nav>
-    <div class="container">
-        <h2>Case Swapper</h2>
-        <p>Please enter your text below.</p>
-        <form onsubmit="generate()">
-            <input type="text" placeholder="Input" id="originalText" autofocus>
-            <div id="textBox">
-                <p id="finalText"></p>
-            </div>
-            <label for="myCheckbox">Alternating Case</label>
-            <input type="checkbox" id="myCheckbox" name="choice" value="checked">
-            <button type="submit">Run</button>
-        </form>
+    <div class="outer-container">
+        <div class="container">
+            <h2>Case Swapper</h2>
+            <p>Please enter your text below.</p>
+            <form onsubmit="generate()">
+                <input type="text" placeholder="Input" id="originalText" autofocus>
+                <div id="textBox">
+                    <p id="finalText"></p>
+                </div>
+                <label for="myCheckbox">Alternating Case</label>
+                <input type="checkbox" id="myCheckbox" name="choice" value="checked">
+                <button type="submit">Run</button>
+            </form>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
