@@ -123,6 +123,12 @@
             text-align: center;
         }
 
+        .outer-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         .container {
             width: 400px;
             padding: 25px 35px;
